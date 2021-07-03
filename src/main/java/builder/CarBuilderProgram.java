@@ -20,5 +20,22 @@ public class CarBuilderProgram {
         engineer.setCarBuilder(new SportCarBuilder());
         car2 = engineer.buildCar();
         System.out.println(car2);
+
+        GeneralCarBuilder generalCarBuilder = new GeneralCarBuilder();
+        Car car3 = generalCarBuilder
+                .buildChassis("Modern chassis")
+                .buildBody("Modern mody")
+                .paint("Black metallic colour")
+                .buildInterior("Modern Interior")
+                .build();
+        System.out.println(car3);
+
+        Car car4 = Car.builder()
+                .chassis("Future chassis")
+                .body("Future body")
+                .paint("Fancy silver")
+                .interior("Future interior")
+                .build();
+        System.out.println(car4);
     }
 }

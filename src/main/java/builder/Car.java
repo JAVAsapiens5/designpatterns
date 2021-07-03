@@ -1,5 +1,8 @@
 package builder;
 
+import lombok.Builder;
+
+@Builder
 public class Car {
 
     private String chassis;
