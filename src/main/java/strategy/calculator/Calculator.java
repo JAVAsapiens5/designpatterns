@@ -1,7 +1,5 @@
 package strategy.calculator;
 
-import java.util.Objects;
-
 public class Calculator {
 
     private OperationStrategy operationStrategy;
