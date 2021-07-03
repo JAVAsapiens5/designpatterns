@@ -1,8 +1,10 @@
+package oops;
+
 public class Cabrio extends Car implements Engine, SunRoof {
 
     public Cabrio() {
         super(null);
-        type = "Cabrio";
+        type = "oops.Cabrio";
     }
 
     public void newMethod1() {

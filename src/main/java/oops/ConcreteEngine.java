@@ -1,3 +1,5 @@
+package oops;
+
 class SUV implements Engine, FourWheel {
     @Override
     public void start() {
@@ -16,7 +18,7 @@ class SUV implements Engine, FourWheel {
 
 //    @Override
 //    public void openSunRoof() {
-//        // nie zaimplementuję tej metody w klasie SUV
+//        // nie zaimplementuję tej metody w klasie oops.SUV
 //    }
 
     private int param1;
