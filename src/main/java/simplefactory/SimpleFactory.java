@@ -2,7 +2,7 @@ package simplefactory;
 
 public class SimpleFactory {
 
-    public static Car createCar(String name) {
+    public Car createCar(String name) {
 
         if (name.equals("Audi")) {
             return new Audi();
